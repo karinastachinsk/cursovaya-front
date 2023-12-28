@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/team.css">
+</head>
+<body>
+  
+</body>
+</html>
+{% block title %}Наша Команда{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/img1.jpg" alt="kira" style="width:100%">
+      <div class="container">
+        <h2>кира это я</h2>
+        <p class="title">самая лучшая</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">написать</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/img2.jpg" alt="kate" style="width:100%">
+      <div class="container">
+        <h2>катюша катенька</h2>
+        <p class="title">тем более самая лучшая</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">написать</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
